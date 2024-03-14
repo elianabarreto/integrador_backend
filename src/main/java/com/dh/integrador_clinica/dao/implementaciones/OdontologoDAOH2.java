@@ -106,7 +106,7 @@ public class OdontologoDAOH2 implements IDAO<Odontologo> {
             }
         }
 
-        LOGGER.info("Esta es la lista que se está devolviendo " + odontologos);
+        LOGGER.info("Esta es la lista que se está devolviendoooooo " + odontologos.toString());
         return odontologos;
     }
 }
