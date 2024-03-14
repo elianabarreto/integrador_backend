@@ -3,10 +3,13 @@ package com.dh.integrador_clinica.service.implementaciones;
 import com.dh.integrador_clinica.dao.IDAO;
 import com.dh.integrador_clinica.dao.implementaciones.OdontologoDAOH2;
 import com.dh.integrador_clinica.model.Odontologo;
+import com.dh.integrador_clinica.service.IOdontologoService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public class OdontologoService {
+@Service
+public class OdontologoService implements IOdontologoService {
 
     private IDAO<Odontologo> odontologoIDAO;
 
@@ -26,9 +29,27 @@ public class OdontologoService {
         this.odontologoIDAO = odontologoIDAO;
     }
 
-    public Odontologo guardar(Odontologo odontologo){
+    @Override
+    public Odontologo agregar(Odontologo odontologo) {
         return odontologoIDAO.agregar(odontologo);
     }
+
+    @Override
+    public void modificar(Odontologo odontologo) {
+        odontologoIDAO.modificar(odontologo);
+    }
+
+    @Override
+    public void eliminar(Integer id) {
+        odontologoIDAO.eliminar(id);
+    }
+
+    @Override
+    public Odontologo buscarPorId(Integer id) {
+        return odontologoIDAO.buscarPorId(id);
+    }
+
+    @Override
     public List<Odontologo> listarTodos(){
         return odontologoIDAO.listarTodos();
     }
