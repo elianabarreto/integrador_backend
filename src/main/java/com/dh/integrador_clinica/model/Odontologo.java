@@ -16,6 +16,13 @@ public class Odontologo {
         this.apellido = apellido;
     }
 
+    //TODO borrar constructor (no tiene id)
+    public Odontologo(Integer matricula, String nombre, String apellido) {
+        this.matricula = matricula;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -46,5 +53,10 @@ public class Odontologo {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public String toString() {
+        return "Odontolo con " + "id: " + id + ", matrícula: " + matricula + ", nombre: " + nombre +
+                ", apellido: " + apellido;
     }
 }

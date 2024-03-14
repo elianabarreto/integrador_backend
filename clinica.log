@@ -11,3 +11,37 @@
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:52] Estamos listando odontologos
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:94] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@32bb0072, com.dh.integrador_clinica.model.Odontologo@467233e4, com.dh.integrador_clinica.model.Odontologo@427a12b6, com.dh.integrador_clinica.model.Odontologo@6025d790, com.dh.integrador_clinica.model.Odontologo@af7e376]
+[2024-03-13 20:43:46] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:43:48] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
+[2024-03-13 20:43:48] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@f29353f, com.dh.integrador_clinica.model.Odontologo@36f7d7b, com.dh.integrador_clinica.model.Odontologo@60aec68a, com.dh.integrador_clinica.model.Odontologo@25a7fedf, com.dh.integrador_clinica.model.Odontologo@6361b799, com.dh.integrador_clinica.model.Odontologo@1b9d9a2b]
+[2024-03-13 20:48:04] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
+[2024-03-13 20:48:06] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@65f40689, com.dh.integrador_clinica.model.Odontologo@29be997f, com.dh.integrador_clinica.model.Odontologo@33eb6758, com.dh.integrador_clinica.model.Odontologo@f8a6243, com.dh.integrador_clinica.model.Odontologo@4a8ffd75, com.dh.integrador_clinica.model.Odontologo@1727e03a]
+[2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:09:15] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
+[2024-03-13 21:09:15] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [Odontolo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontolo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontolo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontolo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontolo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontolo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-13 21:11:30] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:11:30] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:11:30] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:11:30] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:11:31] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:11:31] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
+[2024-03-13 21:14:38] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:14:39] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:14:39] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:14:39] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:14:40] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-13 21:14:40] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
+[2024-03-13 21:14:40] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [Odontolo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontolo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontolo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontolo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontolo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontolo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]

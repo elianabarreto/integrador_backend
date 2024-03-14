@@ -1,4 +1,4 @@
-package com.dh.integrador_clinica.service.implementacion;
+package com.dh.integrador_clinica.service.implementaciones;
 
 import com.dh.integrador_clinica.dao.IDAO;
 import com.dh.integrador_clinica.dao.implementaciones.OdontologoDAOH2;

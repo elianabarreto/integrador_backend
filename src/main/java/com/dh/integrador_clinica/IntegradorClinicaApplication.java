@@ -2,7 +2,7 @@ package com.dh.integrador_clinica;
 
 import com.dh.integrador_clinica.dao.BD;
 import com.dh.integrador_clinica.model.Odontologo;
-import com.dh.integrador_clinica.service.implementacion.OdontologoService;
+import com.dh.integrador_clinica.service.implementaciones.OdontologoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
