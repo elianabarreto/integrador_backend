@@ -3,28 +3,28 @@
 [2024-03-03 18:21:23] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:21:23] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:21:23] [ INFO ] [OdontologoDAOH2:52] Estamos listando odontologos
-[2024-03-03 18:21:24] [ INFO ] [OdontologoDAOH2:94] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@20a967fe, com.dh.integrador_clinica.model.Odontologo@405b6d75, com.dh.integrador_clinica.model.Odontologo@682abca7, com.dh.integrador_clinica.model.Odontologo@1d858300]
+[2024-03-03 18:21:24] [ INFO ] [OdontologoDAOH2:94] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.entity.Odontologo@20a967fe, com.dh.integrador_clinica.entity.Odontologo@405b6d75, com.dh.integrador_clinica.entity.Odontologo@682abca7, com.dh.integrador_clinica.entity.Odontologo@1d858300]
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:52] Estamos listando odontologos
-[2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:94] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@32bb0072, com.dh.integrador_clinica.model.Odontologo@467233e4, com.dh.integrador_clinica.model.Odontologo@427a12b6, com.dh.integrador_clinica.model.Odontologo@6025d790, com.dh.integrador_clinica.model.Odontologo@af7e376]
+[2024-03-03 18:24:35] [ INFO ] [OdontologoDAOH2:94] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.entity.Odontologo@32bb0072, com.dh.integrador_clinica.entity.Odontologo@467233e4, com.dh.integrador_clinica.entity.Odontologo@427a12b6, com.dh.integrador_clinica.entity.Odontologo@6025d790, com.dh.integrador_clinica.entity.Odontologo@af7e376]
 [2024-03-13 20:43:46] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:43:47] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:43:48] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
-[2024-03-13 20:43:48] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@f29353f, com.dh.integrador_clinica.model.Odontologo@36f7d7b, com.dh.integrador_clinica.model.Odontologo@60aec68a, com.dh.integrador_clinica.model.Odontologo@25a7fedf, com.dh.integrador_clinica.model.Odontologo@6361b799, com.dh.integrador_clinica.model.Odontologo@1b9d9a2b]
+[2024-03-13 20:43:48] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.entity.Odontologo@f29353f, com.dh.integrador_clinica.entity.Odontologo@36f7d7b, com.dh.integrador_clinica.entity.Odontologo@60aec68a, com.dh.integrador_clinica.entity.Odontologo@25a7fedf, com.dh.integrador_clinica.entity.Odontologo@6361b799, com.dh.integrador_clinica.entity.Odontologo@1b9d9a2b]
 [2024-03-13 20:48:04] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 20:48:05] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
-[2024-03-13 20:48:06] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.model.Odontologo@65f40689, com.dh.integrador_clinica.model.Odontologo@29be997f, com.dh.integrador_clinica.model.Odontologo@33eb6758, com.dh.integrador_clinica.model.Odontologo@f8a6243, com.dh.integrador_clinica.model.Odontologo@4a8ffd75, com.dh.integrador_clinica.model.Odontologo@1727e03a]
+[2024-03-13 20:48:06] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [com.dh.integrador_clinica.entity.Odontologo@65f40689, com.dh.integrador_clinica.entity.Odontologo@29be997f, com.dh.integrador_clinica.entity.Odontologo@33eb6758, com.dh.integrador_clinica.entity.Odontologo@f8a6243, com.dh.integrador_clinica.entity.Odontologo@4a8ffd75, com.dh.integrador_clinica.entity.Odontologo@1727e03a]
 [2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 21:09:14] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
@@ -45,3 +45,421 @@
 [2024-03-13 21:14:40] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
 [2024-03-13 21:14:40] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
 [2024-03-13 21:14:40] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [Odontolo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontolo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontolo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontolo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontolo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontolo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:06:38] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-14 14:06:38] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-14 14:06:39] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-14 14:06:39] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-14 14:06:39] [ INFO ] [OdontologoDAOH2:21] Estamos persistiendo un odontologo
+[2024-03-14 14:06:39] [ INFO ] [OdontologoDAOH2:67] Estamos listando odontologos
+[2024-03-14 14:06:39] [ INFO ] [OdontologoDAOH2:109] Esta es la lista que se está devolviendo [Odontolo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontolo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontolo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontolo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontolo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontolo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:18:02] [ INFO ] [OdontologoDAOH2:25] Estamos persistiendo un odontologo
+[2024-03-14 14:18:02] [ INFO ] [OdontologoDAOH2:25] Estamos persistiendo un odontologo
+[2024-03-14 14:18:03] [ INFO ] [OdontologoDAOH2:25] Estamos persistiendo un odontologo
+[2024-03-14 14:18:03] [ INFO ] [OdontologoDAOH2:25] Estamos persistiendo un odontologo
+[2024-03-14 14:18:03] [ INFO ] [OdontologoDAOH2:25] Estamos persistiendo un odontologo
+[2024-03-14 14:18:03] [ INFO ] [OdontologoDAOH2:71] Estamos listando odontologos
+[2024-03-14 14:18:04] [ INFO ] [OdontologoDAOH2:113] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontólogo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontólogo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:42:16] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:42:16] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:42:16] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:42:16] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:42:17] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:42:17] [ INFO ] [OdontologoDAOH2:81] Estamos listando odontologos
+[2024-03-14 14:42:17] [ INFO ] [OdontologoDAOH2:125] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontólogo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontólogo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:43:55] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:43:55] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:43:55] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:43:55] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:43:55] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:43:55] [ INFO ] [OdontologoDAOH2:82] Estamos listando odontologos
+[2024-03-14 14:43:56] [ INFO ] [OdontologoDAOH2:126] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontólogo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontólogo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:45:31] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:45:31] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:45:32] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:45:32] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:45:32] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:45:32] [ INFO ] [OdontologoDAOH2:82] Estamos listando odontologos
+[2024-03-14 14:45:33] [ INFO ] [OdontologoDAOH2:126] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontólogo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontólogo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:45:33] [ INFO ] [OdontologoDAOH2:82] Estamos listando odontologos
+[2024-03-14 14:45:33] [ INFO ] [OdontologoDAOH2:126] Esta es la lista que se está devolviendo [Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis, Odontólogo con id: 5, matrícula: 11111, nombre: Rodri, apellido: Hola, Odontólogo con id: 6, matrícula: 0, nombre: Eli, apellido: BBvdsf]
+[2024-03-14 14:50:35] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:50:35] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:50:35] [ INFO ] [OdontologoDAOH2:23] Estamos persistiendo un odontologo
+[2024-03-14 14:50:35] [ INFO ] [OdontologoDAOH2:84] Estamos listando odontologos
+[2024-03-14 14:50:35] [ INFO ] [OdontologoDAOH2:128] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis]
+[2024-03-14 14:50:35] [ INFO ] [OdontologoDAOH2:60] Estamos eliminando un odontólogo
+[2024-03-14 14:50:36] [ INFO ] [OdontologoDAOH2:84] Estamos listando odontologos
+[2024-03-14 14:50:36] [ INFO ] [OdontologoDAOH2:128] Esta es la lista que se está devolviendo [Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Solis]
+[2024-03-14 15:03:13] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:03:13] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:03:13] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:03:13] [ INFO ] [OdontologoDAOH2:107] Estamos listando odontologos
+[2024-03-14 15:03:14] [ INFO ] [OdontologoDAOH2:151] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:03:14] [ INFO ] [OdontologoDAOH2:57] Estamos eliminando un odontólogo
+[2024-03-14 15:03:14] [ INFO ] [OdontologoDAOH2:107] Estamos listando odontologos
+[2024-03-14 15:03:14] [ INFO ] [OdontologoDAOH2:151] Esta es la lista que se está devolviendo [Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:03:14] [ INFO ] [OdontologoDAOH2:100] Esta es el odontólogo que se está devolviendo Odontólogo con id: 3, matrícula: Rodriguez, nombre: 9876, apellido: Pablo
+[2024-03-14 15:06:02] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:06:02] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:06:02] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:06:02] [ INFO ] [OdontologoDAOH2:108] Estamos listando odontologos
+[2024-03-14 15:06:02] [ INFO ] [OdontologoDAOH2:152] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:06:02] [ INFO ] [OdontologoDAOH2:57] Estamos eliminando un odontólogo
+[2024-03-14 15:06:03] [ INFO ] [OdontologoDAOH2:108] Estamos listando odontologos
+[2024-03-14 15:06:03] [ INFO ] [OdontologoDAOH2:152] Esta es la lista que se está devolviendo [Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:06:03] [ INFO ] [OdontologoDAOH2:101] Este es el odontólogo que se está devolviendo Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez
+[2024-03-14 15:21:46] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:21:47] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:21:47] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:21:47] [ INFO ] [OdontologoDAOH2:120] Estamos listando odontologos
+[2024-03-14 15:21:47] [ INFO ] [OdontologoDAOH2:164] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:21:47] [ INFO ] [OdontologoDAOH2:69] Estamos eliminando un odontólogo
+[2024-03-14 15:21:48] [ INFO ] [OdontologoDAOH2:120] Estamos listando odontologos
+[2024-03-14 15:21:48] [ INFO ] [OdontologoDAOH2:164] Esta es la lista que se está devolviendo [Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:21:48] [ INFO ] [OdontologoDAOH2:113] Este es el odontólogo que se está devolviendo Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez
+[2024-03-14 15:22:32] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:22:32] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:22:32] [ INFO ] [OdontologoDAOH2:20] Estamos persistiendo un odontologo
+[2024-03-14 15:22:32] [ INFO ] [OdontologoDAOH2:120] Estamos listando odontologos
+[2024-03-14 15:22:33] [ INFO ] [OdontologoDAOH2:164] Esta es la lista que se está devolviendo [Odontólogo con id: 1, matrícula: 567, nombre: Eliana, apellido: Barreto, Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:22:33] [ INFO ] [OdontologoDAOH2:69] Estamos eliminando un odontólogo
+[2024-03-14 15:22:33] [ INFO ] [OdontologoDAOH2:120] Estamos listando odontologos
+[2024-03-14 15:22:33] [ INFO ] [OdontologoDAOH2:164] Esta es la lista que se está devolviendo [Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez, Odontólogo con id: 3, matrícula: 9876, nombre: Pablo, apellido: Rodriguez, Odontólogo con id: 4, matrícula: 4567, nombre: Alberta, apellido: Pérez]
+[2024-03-14 15:22:33] [ INFO ] [OdontologoDAOH2:113] Este es el odontólogo que se está devolviendo Odontólogo con id: 2, matrícula: 1234, nombre: Carlitos, apellido: Fernandez
+[2024-03-14 21:18:26] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:18:27] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:18:27] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:18:27] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:18:27] [ INFO ] [PacienteDAOH2:18] Estamos persistiendo un paciente
+[2024-03-14 21:18:27] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:18:28] [ INFO ] [PacienteDAOH2:54] se agrego el paciente com.dh.integrador_clinica.entity.Paciente@5d3ff859
+[2024-03-14 21:25:14] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:25:14] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:25:14] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:25:14] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:25:15] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:25:15] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:35:30] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:35:30] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:35:30] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:35:30] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:35:30] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:35:30] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:36:57] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:36:57] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:36:57] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:36:57] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:36:57] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:36:57] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:37:54] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:37:54] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:37:54] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:37:54] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:37:54] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:37:54] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:45:33] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:45:34] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:45:34] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:45:34] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:45:34] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:45:34] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:48:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:48:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:48:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:48:45] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:48:45] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:48:45] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:59:29] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:59:29] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:59:29] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 21:59:30] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 21:59:30] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 21:59:30] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:00:36] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:00:37] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:00:37] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:00:37] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:00:37] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:00:37] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:08:51] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:08:51] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:08:51] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:08:51] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:08:52] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:08:52] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:12:43] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:12:43] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:12:43] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:12:44] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:12:44] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:12:44] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:14:07] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:14:07] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:14:07] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:14:07] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:14:08] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:14:08] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:17:08] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:17:08] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:17:08] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:17:09] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:17:09] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:17:09] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:20:06] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:20:06] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:20:07] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:20:07] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:20:07] [ INFO ] [DomicilioDAOH2:147] Listando domicilios
+[2024-03-14 22:20:07] [ INFO ] [DomicilioDAOH2:192] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-14 22:20:07] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:20:07] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:23:10] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:23:10] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:23:10] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:23:11] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:23:11] [ INFO ] [DomicilioDAOH2:147] Listando domicilios
+[2024-03-14 22:23:11] [ INFO ] [DomicilioDAOH2:192] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-14 22:23:11] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:23:11] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:23:11] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:23:12] [ INFO ] [PacienteDAOH2:32] el domicilio es Domicilio con id: null, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-14 22:30:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:30:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:30:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:30:44] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:30:45] [ INFO ] [DomicilioDAOH2:147] Listando domicilios
+[2024-03-14 22:30:45] [ INFO ] [DomicilioDAOH2:192] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-14 22:30:45] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:30:45] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-14 22:38:55] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:38:55] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:38:55] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 22:38:56] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-14 22:38:56] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-14 22:38:56] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-14 22:38:56] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-14 22:38:56] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 22:38:56] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-14 22:38:56] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 3
+[2024-03-14 22:38:56] [ INFO ] [PacienteDAOH2:54] SE CREO EL PACIENTE 2
+[2024-03-14 23:14:21] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 23:14:21] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 23:14:22] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 23:14:22] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-14 23:14:22] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-14 23:14:22] [ INFO ] [DomicilioDAOH2:196] Listando domicilios
+[2024-03-14 23:14:22] [ INFO ] [DomicilioDAOH2:241] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-14 23:14:22] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 23:14:22] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-14 23:14:22] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 3
+[2024-03-14 23:14:23] [ INFO ] [PacienteDAOH2:54] SE CREO EL PACIENTE 2
+[2024-03-14 23:16:40] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 23:16:40] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 23:16:40] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-14 23:16:40] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-14 23:16:40] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-14 23:16:40] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-14 23:16:40] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-14 23:16:41] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-14 23:16:41] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-14 23:16:41] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-14 23:16:41] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 3
+[2024-03-14 23:16:41] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 3 es Domicilio con id: 3, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-14 23:16:41] [ INFO ] [PacienteDAOH2:54] SE CREO EL PACIENTE 2
+[2024-03-15 00:09:22] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:09:23] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:09:23] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:09:23] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:09:23] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-15 00:09:23] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:09:23] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:09:24] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:09:24] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:09:24] [ INFO ] [DomicilioDAOH2:189] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:09:24] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:09:24] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:19:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:19:44] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:19:45] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:19:45] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:189] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:19:45] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 2 con el domicilio id 2
+[2024-03-15 00:19:45] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:19:46] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:22:23] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:22:23] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:22:23] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:22:23] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:22:23] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-15 00:22:23] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:22:24] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:22:24] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:22:24] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:22:24] [ INFO ] [DomicilioDAOH2:189] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:22:24] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 2 con el domicilio id 2
+[2024-03-15 00:22:24] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:22:24] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:22:24] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:22:24] [ INFO ] [DomicilioDAOH2:189] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:22:24] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 3 con el domicilio id 2
+[2024-03-15 00:27:34] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:27:34] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:27:34] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:27:34] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:27:34] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-15 00:27:34] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:27:34] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:189] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 2 con el domicilio id 2
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:197] Listando domicilios
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:242] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:189] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 3 con el domicilio id 2
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:27:35] [ ERROR] [DomicilioDAOH2:187] No se encontró ningún domicilio con la ID proporcionada: null
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:35] El domicilio no existe en la base de datos, creamos uno nuevo
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 3
+[2024-03-15 00:27:35] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:27:35] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 4 con el domicilio id 3
+[2024-03-15 00:30:29] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:30:29] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:30:29] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:30:29] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:30:29] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-15 00:30:29] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:193] Listando domicilios
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:238] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:30:30] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:185] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:30:30] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 2 con el domicilio id 2
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:193] Listando domicilios
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:238] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:30:30] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:185] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:30:30] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 3 con el domicilio id 2
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 3
+[2024-03-15 00:30:30] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:30:31] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:30:31] [ INFO ] [DomicilioDAOH2:185] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:30:31] [ INFO ] [PacienteDAOH2:64] Se creó el paciente 4 con el domicilio id 3
+[2024-03-15 00:33:42] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:33:42] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:33:43] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:33:43] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:33:43] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 2
+[2024-03-15 00:33:43] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:33:43] [ INFO ] [DomicilioDAOH2:193] Listando domicilios
+[2024-03-15 00:33:43] [ INFO ] [DomicilioDAOH2:238] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:33:43] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:33:43] [ INFO ] [DomicilioDAOH2:185] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:33:43] [ INFO ] [PacienteDAOH2:64] Se creó el paciente Paciente con id: 2, nombre: Pepito, apellido: Gonzalez, dni: 123456, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:193] Listando domicilios
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:238] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:33:44] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:185] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:33:44] [ INFO ] [PacienteDAOH2:64] Se creó el paciente Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:18] Persistiendo un domicilio
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:42] Se creó el domicilio con ID 3
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:43] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:33:44] [ INFO ] [PacienteDAOH2:20] Persistiendo un paciente
+[2024-03-15 00:33:44] [ INFO ] [DomicilioDAOH2:185] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:33:44] [ INFO ] [PacienteDAOH2:64] Se creó el paciente Paciente con id: 4, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 3, fecha ingreso: 2024-03-14
+[2024-03-15 00:53:56] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:53:56] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:53:57] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 00:53:57] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 00:53:57] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 2
+[2024-03-15 00:53:57] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:53:57] [ INFO ] [DomicilioDAOH2:192] Listando domicilios
+[2024-03-15 00:53:57] [ INFO ] [DomicilioDAOH2:237] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:53:57] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 00:53:57] [ INFO ] [DomicilioDAOH2:184] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:53:57] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 2, nombre: Pepito, apellido: Gonzalez, dni: 123456, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:192] Listando domicilios
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:237] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 00:53:58] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:184] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 00:53:58] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 3
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:53:58] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 00:53:58] [ INFO ] [DomicilioDAOH2:184] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 00:53:58] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 4, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 3, fecha ingreso: 2024-03-14
+[2024-03-15 01:02:02] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:02:02] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:02:02] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:02:02] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 01:02:02] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 2
+[2024-03-15 01:02:02] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:02:03] [ INFO ] [DomicilioDAOH2:192] Listando domicilios
+[2024-03-15 01:02:03] [ INFO ] [DomicilioDAOH2:237] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 01:02:03] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:02:03] [ INFO ] [DomicilioDAOH2:184] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:02:03] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 2, nombre: Pepito, apellido: Gonzalez, dni: 123456, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 01:02:03] [ INFO ] [DomicilioDAOH2:192] Listando domicilios
+[2024-03-15 01:02:03] [ INFO ] [DomicilioDAOH2:237] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 01:02:03] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:02:03] [ INFO ] [DomicilioDAOH2:184] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:02:03] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 01:02:04] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 01:02:04] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 3
+[2024-03-15 01:02:04] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 01:02:04] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:02:04] [ INFO ] [DomicilioDAOH2:184] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 01:02:04] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 4, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 3, fecha ingreso: 2024-03-14
+[2024-03-15 01:31:06] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:31:06] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:31:06] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:31:06] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 01:31:06] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 2
+[2024-03-15 01:31:06] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:31:07] [ INFO ] [DomicilioDAOH2:161] Listando domicilios
+[2024-03-15 01:31:07] [ INFO ] [DomicilioDAOH2:206] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 01:31:07] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:31:07] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:31:07] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 2, nombre: Pepito, apellido: Gonzalez, dni: 123456, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 01:31:07] [ INFO ] [DomicilioDAOH2:161] Listando domicilios
+[2024-03-15 01:31:07] [ INFO ] [DomicilioDAOH2:206] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 01:31:07] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:31:07] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:31:07] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 2, fecha ingreso: 2024-03-14
+[2024-03-15 01:31:08] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 01:31:08] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 3
+[2024-03-15 01:31:08] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 01:31:08] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:31:08] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 01:31:08] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 4, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: 3, fecha ingreso: 2024-03-14
+[2024-03-15 01:32:36] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:32:36] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:32:36] [ INFO ] [OdontologoDAOH2:20] Persistiendo un odontologo
+[2024-03-15 01:32:36] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 01:32:36] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 2
+[2024-03-15 01:32:36] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 2 es Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:32:37] [ INFO ] [DomicilioDAOH2:161] Listando domicilios
+[2024-03-15 01:32:37] [ INFO ] [DomicilioDAOH2:206] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 01:32:37] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:32:37] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:32:37] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 2, nombre: Pepito, apellido: Gonzalez, dni: 123456, domicilio: Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo, fecha ingreso: 2024-03-14
+[2024-03-15 01:32:37] [ INFO ] [DomicilioDAOH2:161] Listando domicilios
+[2024-03-15 01:32:37] [ INFO ] [DomicilioDAOH2:206] La lista de domicilios es: [Domicilio con id: 1, calle: Av. 18 de Julio, número: 1286, localidad: Centro, provincia: Montevideo, Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo]
+[2024-03-15 01:32:37] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:32:37] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo
+[2024-03-15 01:32:37] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: Domicilio con id: 2, calle: Magallanes, número: 1234, localidad: Uruguay, provincia: Montevideo, fecha ingreso: 2024-03-14
+[2024-03-15 01:32:38] [ INFO ] [DomicilioDAOH2:17] Persistiendo un domicilio
+[2024-03-15 01:32:38] [ INFO ] [DomicilioDAOH2:41] Se creó el domicilio con ID 3
+[2024-03-15 01:32:38] [ INFO ] [DomicilioDAOH2:42] El domicilio con id 3 es Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 01:32:38] [ INFO ] [PacienteDAOH2:18] Persistiendo un paciente
+[2024-03-15 01:32:38] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
+[2024-03-15 01:32:38] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 4, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super, fecha ingreso: 2024-03-14
+[2024-03-15 01:32:38] [ INFO ] [PacienteDAOH2:173] Este es el paciente que se está devolviendo Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: null, fecha ingreso: 2024-03-14
