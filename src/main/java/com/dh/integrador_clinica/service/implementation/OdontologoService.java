@@ -32,6 +32,10 @@ public class OdontologoService implements IOdontologoService {
     @Override
     public void eliminar(Long id) {
         odontologoRepository.deleteById(id);
+
+        /*if (odontologoRepository.findById(id).isPresent()) {
+            odontologoRepository.deleteById(id);
+        } VER DE MANEJAR ESTA VALIDACION PARA LOS DEMÁS TAMBIÉN, Y MANIPULAR EN CASO DE QUE NO EXISTA*/
     }
 
     @Override

@@ -6,6 +6,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
+
 @Entity
 @Table(name = "odontologos")
 @NoArgsConstructor
@@ -15,10 +19,18 @@ import lombok.Setter;
 public class Odontologo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
+
     private String matricula;
+
     private String nombre;
+
     private String apellido;
+    @OneToMany(mappedBy = "odontologo")
+    private Set<Turno> turnoSet = new HashSet<>();
+    //private Set < Publicacion > publications = HashSet< Publicacion >();
+
 
     public String toString() {
         return "Odontólogo con " + "id: " + id + ", matrícula: " + matricula + ", nombre: " + nombre +

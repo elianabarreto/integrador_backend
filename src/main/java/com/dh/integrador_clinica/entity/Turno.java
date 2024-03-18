@@ -18,8 +18,13 @@ public class Turno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @ManyToOne //(fetch = FetchType.LAZY)
     private Odontologo odontologo;
+
+    @ManyToOne
     private Paciente paciente;
+
     private LocalDate fecha;
 
 }
