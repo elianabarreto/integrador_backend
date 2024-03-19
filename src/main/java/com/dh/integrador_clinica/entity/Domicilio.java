@@ -14,6 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 
 public class Domicilio {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 

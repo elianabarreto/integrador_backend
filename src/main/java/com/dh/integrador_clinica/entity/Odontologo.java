@@ -1,5 +1,6 @@
 package com.dh.integrador_clinica.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +9,6 @@ import lombok.Setter;
 
 import java.util.HashSet;
 import java.util.Set;
-
 
 @Entity
 @Table(name = "odontologos")
@@ -27,10 +27,10 @@ public class Odontologo {
     private String nombre;
 
     private String apellido;
-    @OneToMany(mappedBy = "odontologo")
-    private Set<Turno> turnoSet = new HashSet<>();
-    //private Set < Publicacion > publications = HashSet< Publicacion >();
 
+    @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private Set<Turno> turnoSet = new HashSet<>();
 
     public String toString() {
         return "Odontólogo con " + "id: " + id + ", matrícula: " + matricula + ", nombre: " + nombre +
