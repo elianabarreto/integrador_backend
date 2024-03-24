@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="/index.html">Clínica Odontológica</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                     Gestión odontólogos
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="odontologoLista.html">Listar odontólogos</a>
+                    <a class="dropdown-item" href="odontologoListar.html">Listar odontólogos</a>
                     <a class="dropdown-item" href="odontologoAgregar.html">Agregar odontólogos</a>
                 </div>
             </li>
@@ -39,11 +39,11 @@
 </nav>
 
 
-<div class="container">
-    <div id="div_dentist_table">
+<div class="row">
+    <div class="col-5 mx-auto mt-5 shadow-lg rounded bg-dark p-4 text-white" id="div_dentist_table">
         <h1>Odontólogos</h1>
-        <div class="row col-md-6 table-responsive">
-            <table id="dentistTable" class="table table-striped">
+        <div class="table-responsive">
+            <table id="dentistTable" class="table table-striped text-white">
                 <thead>
                 <tr>
                     <th>Id</th>
@@ -60,7 +60,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row d-none">
         <div class="col-sm-6" style="display: none;
 											background-color:#e6fffa; padding:10px; border-radius:3px"
              id="div_dentist_updating">

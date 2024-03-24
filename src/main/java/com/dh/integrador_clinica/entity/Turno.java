@@ -1,5 +1,7 @@
 package com.dh.integrador_clinica.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,15 +24,19 @@ public class Turno {
     @ManyToOne //(fetch = FetchType.LAZY) en ManyToOne para que tenga carga LAZY, hay que especificar
     //por defecto queda EAGER, cuando listamos turno nos trae todos los datos de odontologo y paciente
     @JoinColumn(name = "odontologo_id", nullable = false)
+    @JsonIgnoreProperties("turnoSet")
     private Odontologo odontologo;
 
     //TODO: consultar a profe si NULLABLE = FALSE o esta opción de abajo, cual es mejor, lo mismo para paciente
-    //@JoinColumn(name = "odontologo_id", referencedColumnName = "id")
 
-    @JoinColumn(name = "paciente_id", nullable = false)
     @ManyToOne
+    @JoinColumn(name = "paciente_id", nullable = false)
+    @JsonIgnoreProperties("turnoSet")
     private Paciente paciente;
 
     private LocalDate fecha;
+
+
+
 
 }

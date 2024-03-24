@@ -10,6 +10,8 @@ import lombok.Setter;
 import java.util.HashSet;
 import java.util.Set;
 
+
+
 @Entity
 @Table(name = "odontologos")
 @NoArgsConstructor
@@ -29,7 +31,7 @@ public class Odontologo {
     private String apellido;
 
     @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
-    @JsonIgnore
+    //@JsonIgnore
     private Set<Turno> turnoSet = new HashSet<>();
 
     public String toString() {
