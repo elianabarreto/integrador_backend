@@ -23,58 +23,57 @@ class TurnoServiceTest {
     @Autowired
     private PacienteService pacienteService;
 
-    @Test
-    void guardarTurnoTest() {
-        //Creamos un odontólogo y un paciente para asociar al turno
+    //Método para crear y guardar en la BD una instancia de turno
+    private Turno crearYGuardarTurno(String nombreOdont, String apellidoOdont, String matricula,
+                                     String nombrePaciente, String apellidoPaciente, String dni,
+                                     String fecha){
+
+        //Instanciamos odóntologo y seteamos sus valores
         Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Juan");
-        odontologo.setApellido("Dominguez");
-        odontologo.setMatricula("4456");
+        odontologo.setNombre(nombreOdont);
+        odontologo.setApellido(apellidoOdont);
+        odontologo.setMatricula(matricula);
 
+        //Instanciamos paciente y seteamos sus valores
         Paciente paciente = new Paciente();
-        paciente.setNombre("Ana");
-        paciente.setApellido("Garcia");
-        paciente.setDni("12345678");
+        paciente.setNombre(nombrePaciente);
+        paciente.setApellido(apellidoPaciente);
+        paciente.setDni(dni);
 
-        //Creamos un turno, que asociamos con el odontólogo y el paciente
+        //Instanciamos turno y seteamos sus valores (le asociamos el odontólogo y paciente)
         Turno turno = new Turno();
-        turno.setFecha(LocalDate.parse("2024-03-24"));
         turno.setOdontologo(odontologo);
         turno.setPaciente(paciente);
+        turno.setFecha(LocalDate.parse(fecha));
 
-        //Guardamos odontólogo, paciente y turno en la bd
+        //Guardamos las instancias en la BD
         odontologoService.agregar(odontologo);
         pacienteService.agregar(paciente);
         turnoService.agregar(turno);
 
-        //Verificamos que el turno se haya guardado correctamente
-        assertNotNull(turno.getId());
+        return turno;
+    }
+
+    @Test
+    void guardarTurnoTest() {
+
+        //Odontólogo y paciente guardados y asociados al turno, turno guardado en la BD
+        Turno turno = crearYGuardarTurno("Juan", "Dominguez", "4456",
+                "Ana", "Garcia", "12345678", "2024-03-24");
+
+        //Obtenemos el id del turno y lo guardamos en una variable
+        Long turnoId = turno.getId();
+
+        //Verificamos que el turno se haya guardado correctamente, su id no debería ser null
+        assertNotNull(turnoId);
     }
 
     @Test
     void eliminarTurnoTest() {
 
-        //Creamos un odontólogo y un paciente para asociar al turno
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Elbio");
-        odontologo.setApellido("Fernandez");
-        odontologo.setMatricula("1111");
-
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Liz");
-        paciente.setApellido("Hernandez");
-        paciente.setDni("12567844");
-
-        //Creamos un turno, que asociamos con el odontólogo y el paciente
-        Turno turno = new Turno();
-        turno.setFecha(LocalDate.parse("2024-02-05"));
-        turno.setOdontologo(odontologo);
-        turno.setPaciente(paciente);
-
-        //Guardamos odontólogo, paciente y turno en la bd
-        odontologoService.agregar(odontologo);
-        pacienteService.agregar(paciente);
-        turnoService.agregar(turno);
+        //Creamos y guardamos un turno
+        Turno turno = crearYGuardarTurno("Elbio", "Fernandez", "1111",
+                "Liz", "Hernandez", "12567844", "2024-02-05");
 
         //Comprobamos que efectivamente existe
         Long turnoId = turno.getId();
@@ -90,27 +89,9 @@ class TurnoServiceTest {
     @Test
     void modificarTurnoTest() {
 
-        //Creamos un odontólogo y un paciente para asociar al turno
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Emilia");
-        odontologo.setApellido("Barras");
-        odontologo.setMatricula("4455");
-
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Ellen");
-        paciente.setApellido("Rios");
-        paciente.setDni("100110009");
-
-        //Creamos un turno, que asociamos con el odontólogo y el paciente
-        Turno turno = new Turno();
-        turno.setFecha(LocalDate.parse("2023-08-27"));
-        turno.setOdontologo(odontologo);
-        turno.setPaciente(paciente);
-
-        //Guardamos odontólogo, paciente y turno en la bd
-        odontologoService.agregar(odontologo);
-        pacienteService.agregar(paciente);
-        turnoService.agregar(turno);
+        //Creamos y guardamos un turno
+        Turno turno = crearYGuardarTurno("Emilia", "Barras", "4455",
+                "Ellen", "Rios", "100110009", "2023-08-27");
 
         //Comprobamos que efectivamente existe
         Long turnoId = turno.getId();
@@ -118,6 +99,7 @@ class TurnoServiceTest {
 
         //Modificamos los datos del turno, en este caso fecha
         turno.setFecha(LocalDate.parse("2024-03-25"));
+
         //Actualizamos el turno
         turnoService.modificar(turno);
 
@@ -134,27 +116,9 @@ class TurnoServiceTest {
     @Test
     void buscarPorIdTest() {
 
-        //Creamos un odontólogo y un paciente para asociar al turno
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Emilia");
-        odontologo.setApellido("Barras");
-        odontologo.setMatricula("4455");
-
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Ellen");
-        paciente.setApellido("Rios");
-        paciente.setDni("100110009");
-
-        //Creamos un turno, que asociamos con el odontólogo y el paciente
-        Turno turno = new Turno();
-        turno.setFecha(LocalDate.parse("2023-08-27"));
-        turno.setOdontologo(odontologo);
-        turno.setPaciente(paciente);
-
-        //Guardamos odontólogo, paciente y turno en la bd
-        odontologoService.agregar(odontologo);
-        pacienteService.agregar(paciente);
-        turnoService.agregar(turno);
+        //Creamos y guardamos un turno
+        Turno turno = crearYGuardarTurno("Elisa", "Sans", "114422",
+                "Flores", "Ramirez", "33212456", "2022-05-03");
 
         //Comprobamos que efectivamente existe
         Long turnoId = turno.getId();
@@ -172,40 +136,10 @@ class TurnoServiceTest {
     @Test
     void listarTodosTest() {
 
-        // Creamos un odontologo y un paciente, luego creamos algunos turnos para probar la lista
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Ester");
-        odontologo.setApellido("Aramandas");
-        odontologo.setMatricula("1122");
-
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Wilson");
-        paciente.setApellido("Casas");
-        paciente.setDni("4477799922");
-
-        //Creamos varios turnos, que asociamos con el mismo odontólogo y paciente, pero diferentes fechas
-        Turno turno1 = new Turno();
-        turno1.setFecha(LocalDate.parse("2023-10-03"));
-        turno1.setOdontologo(odontologo);
-        turno1.setPaciente(paciente);
-
-        Turno turno2 = new Turno();
-        turno2.setFecha(LocalDate.parse("2024-02-01"));
-        turno2.setOdontologo(odontologo);
-        turno2.setPaciente(paciente);
-
-        Turno turno3 = new Turno();
-        turno3.setFecha(LocalDate.parse("2024-11-16"));
-        turno3.setOdontologo(odontologo);
-        turno3.setPaciente(paciente);
-
-        //Guardamos odontólogo, paciente y los turnos en la bd
-        odontologoService.agregar(odontologo);
-        pacienteService.agregar(paciente);
-
-        turnoService.agregar(turno1);
-        turnoService.agregar(turno2);
-        turnoService.agregar(turno3);
+        //Creamos y guardamos algunos turnos para probar la lista
+        crearYGuardarTurno("Ester", "Aramandas","1122","Wilson","Casas","44777999","2023-10-03");
+        crearYGuardarTurno("Maria", "Robles","3344","Heriberto","Kansas","3340986","2024-01-01");
+        crearYGuardarTurno("Ester", "Aramandas","1122","Wilson","Casas","44777999","2023-12-06");
 
         // Obtenemos la lista de todos los turnos
         List<Turno> turnos = turnoService.listarTodos();

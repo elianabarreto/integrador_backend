@@ -15,19 +15,28 @@ class OdontologoServiceTest {
     @Autowired
     private OdontologoService odontologoService;
 
-    @Test
-    void guardarOdontologoTest() {
+    //Método para crear y guardar en la BD una instancia de odontólogo
+    private Odontologo crearYGuardarOdontologo(String nombre, String apellido, String matricula){
 
         //Instanciamos un odóntologo
         Odontologo odontologo = new Odontologo();
 
         //seteamos los valores al odontólogo
-        odontologo.setNombre("Olivia");
-        odontologo.setApellido("Ola");
-        odontologo.setMatricula("444");
+        odontologo.setNombre(nombre);
+        odontologo.setApellido(apellido);
+        odontologo.setMatricula(matricula);
 
         //Guardamos el odontólogo
         odontologoService.agregar(odontologo);
+
+        return odontologo;
+    }
+
+    @Test
+    void guardarOdontologoTest() {
+
+        //Después de crear y guardar un odontólogo...
+        Odontologo odontologo = crearYGuardarOdontologo("Olivia", "Ola", "444");
 
         //Obtenemos su id y lo guardamos en una variable
         Long odontologoId = odontologo.getId();
@@ -40,11 +49,7 @@ class OdontologoServiceTest {
     void eliminarOdontologoTest() {
 
         //Después de crear y guardar un odontólogo...
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Juan");
-        odontologo.setApellido("Perez");
-        odontologo.setMatricula("123");
-        odontologoService.agregar(odontologo);
+        Odontologo odontologo = crearYGuardarOdontologo("Juan", "Pérez", "1234");
 
         //Comprobamos que efectivamente existe
         Long odontologoId = odontologo.getId();
@@ -61,11 +66,7 @@ class OdontologoServiceTest {
     void modificarOdontologoTest() {
 
         //Después de crear y guardar un odontólogo...
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Carlos");
-        odontologo.setApellido("Gomez");
-        odontologo.setMatricula("789");
-        odontologoService.agregar(odontologo);
+        Odontologo odontologo = crearYGuardarOdontologo("Carlos", "Gomez", "789");
 
         //Comprobamos que efectivamente existe
         Long odontologoId = odontologo.getId();
@@ -89,11 +90,7 @@ class OdontologoServiceTest {
     void buscarPorIdTest() {
 
         // Después de crear y guardar un odontólogo...
-        Odontologo odontologo = new Odontologo();
-        odontologo.setNombre("Pedro");
-        odontologo.setApellido("Ramirez");
-        odontologo.setMatricula("101");
-        odontologoService.agregar(odontologo);
+        Odontologo odontologo = crearYGuardarOdontologo("Pedro", "Ramirez", "1010");
 
         // Comprobamos que efectivamente existe
         Long odontologoId = odontologo.getId();
@@ -112,23 +109,9 @@ class OdontologoServiceTest {
     void listarTodosTest() {
 
         // Creamos y guardamos algunos odontólogos para probar la lista
-        Odontologo odontologo1 = new Odontologo();
-        odontologo1.setNombre("Ana");
-        odontologo1.setApellido("Lopez");
-        odontologo1.setMatricula("111");
-        odontologoService.agregar(odontologo1);
-
-        Odontologo odontologo2 = new Odontologo();
-        odontologo2.setNombre("Maria");
-        odontologo2.setApellido("Garcia");
-        odontologo2.setMatricula("222");
-        odontologoService.agregar(odontologo2);
-
-        Odontologo odontologo3 = new Odontologo();
-        odontologo3.setNombre("Jose");
-        odontologo3.setApellido("Martinez");
-        odontologo3.setMatricula("333");
-        odontologoService.agregar(odontologo3);
+        crearYGuardarOdontologo("Ana", "Lopez", "111");
+        crearYGuardarOdontologo("Maria", "Garcia", "222");
+        crearYGuardarOdontologo("Jose", "Martinez", "333");
 
         //Comparamos: el numero indicado (3 en este caso) con la cantidad de odontólogos
         //que deberíamos tener en nuestra colección

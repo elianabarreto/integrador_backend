@@ -28,13 +28,12 @@ public class TurnoController {
         this.pacienteService = pacienteService;
     }
 
-    //busca por ID
-    @GetMapping("/{id}")
+    //Busca turno por id
     public ResponseEntity<Optional> buscarPorId(@PathVariable Long id) {
         return ResponseEntity.ok(turnoService.buscarPorId(id));
     }
 
-    //guarda un turno
+    //Guarda un turno
     @PostMapping
     public ResponseEntity<Turno> guardar(@RequestBody Turno turno) {
         ResponseEntity<Turno> response;
@@ -54,13 +53,13 @@ public class TurnoController {
         return response;
     }
 
-    //Listar todos los turnos
+    //Lista todos los turnos
     @GetMapping
     public ResponseEntity<List<Turno>> listarTodos() {
         return ResponseEntity.ok(turnoService.listarTodos());
     }
 
-    //Modifica/actualiza los turnos
+    //Modifica/actualiza un turno
     @PutMapping
     public ResponseEntity<String> actualizar(@RequestBody Turno turno) {
         ResponseEntity<String> response;
@@ -80,7 +79,7 @@ public class TurnoController {
         return response;
     }
 
-    //BORRAR POR ID
+    //Borra un turno por id
     @DeleteMapping("/{id}")
     public ResponseEntity<String> borrarTurno(@PathVariable Long id) {
         ResponseEntity<String> response;
@@ -100,5 +99,4 @@ public class TurnoController {
         }
         return response;
     }
-
 }

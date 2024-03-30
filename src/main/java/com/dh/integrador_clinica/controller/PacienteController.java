@@ -23,25 +23,25 @@ public class PacienteController {
         this.pacienteService = pacienteService;
     }
 
-    //busca por ID
+    //Busca paciente por id
     @GetMapping("/{id}")
     public ResponseEntity<Optional> buscarPorId(@PathVariable Long id) {
         return ResponseEntity.ok(pacienteService.buscarPorId(id));
     }
 
-    //guarda un paciente
+    //Guarda un paciente
     @PostMapping
     public ResponseEntity<Paciente> guardar(@RequestBody Paciente paciente) {
         return ResponseEntity.ok(pacienteService.agregar(paciente));
     }
 
-    //Listar todos los pacientes
+    //Lista todos los pacientes
     @GetMapping
     public ResponseEntity<List<Paciente>> listarTodos() {
         return ResponseEntity.ok(pacienteService.listarTodos());
     }
 
-    //Modifica/actualiza los pacientes
+    //Modifica/actualiza un paciente
     @PutMapping
     public ResponseEntity<String> actualizar(@RequestBody Paciente paciente) {
         ResponseEntity<String> response;
@@ -61,7 +61,7 @@ public class PacienteController {
         return response;
     }
 
-    //BORRAR POR ID
+    //Borra un paciente por id
     @DeleteMapping("/{id}")
     public ResponseEntity<String> borrarPaciente(@PathVariable Long id) {
         ResponseEntity<String> response;

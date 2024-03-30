@@ -15,19 +15,28 @@ class PacienteServiceTest {
     @Autowired
     private PacienteService pacienteService;
 
-    @Test
-    void guardarPacienteTest() {
+    //Método para crear y guardar en la BD una instancia de paciente
+    private Paciente crearYGuardarPaciente(String nombre, String apellido, String dni){
 
         //Instanciamos un paciente
         Paciente paciente = new Paciente();
 
         //seteamos los valores al paciente
-        paciente.setNombre("Francisco");
-        paciente.setApellido("Ruiz");
-        paciente.setDni("12332456");
+        paciente.setNombre(nombre);
+        paciente.setApellido(apellido);
+        paciente.setDni(dni);
 
         //Guardamos el paciente
         pacienteService.agregar(paciente);
+
+        return paciente;
+    }
+
+    @Test
+    void guardarPacienteTest() {
+
+        //Después de crear y guardar un paciente...
+        Paciente paciente = crearYGuardarPaciente("Francisco", "Ruiz", "12332456");
 
         //Obtenemos su id y lo guardamos en una variable
         Long pacienteId = paciente.getId();
@@ -40,11 +49,7 @@ class PacienteServiceTest {
     void eliminarPacienteTest() {
 
         //Después de crear y guardar un paciente...
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Roberta");
-        paciente.setApellido("Fels");
-        paciente.setDni("112246567");
-        pacienteService.agregar(paciente);
+        Paciente paciente = crearYGuardarPaciente("Roberta", "Fels", "112246567");
 
         //Comprobamos que efectivamente existe
         Long pacienteId = paciente.getId();
@@ -61,11 +66,7 @@ class PacienteServiceTest {
     void modificarPacienteTest() {
 
         //Después de crear y guardar un paciente...
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Carla");
-        paciente.setApellido("Estevez");
-        paciente.setDni("44558999");
-        pacienteService.agregar(paciente);
+        Paciente paciente = crearYGuardarPaciente("Carla", "Estevez", "44558999");
 
         //Comprobamos que efectivamente existe
         Long pacienteId = paciente.getId();
@@ -89,11 +90,7 @@ class PacienteServiceTest {
     void buscarPorIdTest() {
 
         //Después de crear y guardar un paciente...
-        Paciente paciente = new Paciente();
-        paciente.setNombre("Pedrito");
-        paciente.setApellido("Ramirez");
-        paciente.setDni("2398980003");
-        pacienteService.agregar(paciente);
+        Paciente paciente = crearYGuardarPaciente("Pedrito", "Ramirez", "2398980003");
 
         //Comprobamos que efectivamente existe
         Long pacienteId = paciente.getId();
@@ -112,23 +109,9 @@ class PacienteServiceTest {
     void listarTodosTest() {
 
         //Creamos y guardamos algunos pacientes para probar la lista
-        Paciente paciente1 = new Paciente();
-        paciente1.setNombre("Luis");
-        paciente1.setApellido("Lopez");
-        paciente1.setDni("12668899");
-        pacienteService.agregar(paciente1);
-
-        Paciente paciente2 = new Paciente();
-        paciente2.setNombre("Maria");
-        paciente2.setApellido("Ramirez");
-        paciente2.setDni("6566789990");
-        pacienteService.agregar(paciente2);
-
-        Paciente paciente3 = new Paciente();
-        paciente3.setNombre("Juana");
-        paciente3.setApellido("Fernandez");
-        paciente3.setDni("1233245899");
-        pacienteService.agregar(paciente3);
+        crearYGuardarPaciente("Luis", "Lopez", "12668899");
+        crearYGuardarPaciente("Maria", "Ramirez", "6566789990");
+        crearYGuardarPaciente("Juana", "Fernandez", "1233245899");;
 
         List<Paciente> pacientes = pacienteService.listarTodos();
 

@@ -12,7 +12,6 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class Domicilio {
 
     @Id
@@ -27,9 +26,4 @@ public class Domicilio {
     private String localidad;
 
     private String provincia;
-
-    public String toString() {
-        return "Domicilio con " + "id: " + id + ", calle: " + calle + ", número: " + numero +
-                ", localidad: " + localidad + ", provincia: " + provincia;
-    }
 }

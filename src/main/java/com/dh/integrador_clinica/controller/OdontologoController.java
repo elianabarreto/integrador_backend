@@ -9,20 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.lang.Exception;
 
-
-
 import java.util.List;
 import java.util.Optional;
-
-/*@RestController //ESTO FUNCIONO, LO HICE PARA PROBAR
-@RequestMapping("/odontologoss")
-public class OdontologoController {
-    @GetMapping
-    public String getHello(){
-    return "Holis!!!";
-    }
-
-}*/
 
 @RestController
 @RequestMapping("/odontologos")
@@ -34,43 +22,26 @@ public class OdontologoController {
         this.odontologoService = odontologoService;
     }
 
-    //busca por id
+    //Busca un odontólogo por id
     @GetMapping("/{id}")
     public ResponseEntity<Optional> buscarPorId(@PathVariable Long id) {
 
         return ResponseEntity.ok(odontologoService.buscarPorId(id));
     }
 
-    //guarda un odontologo
+    //Guarda un odontólogo
     @PostMapping
     public ResponseEntity<Odontologo> guardar(@RequestBody Odontologo odontologo) {
         return ResponseEntity.ok(odontologoService.agregar(odontologo));
     }
 
-    //lista todos los odontologos
+    //Lista todos los odontólogos
     @GetMapping
     public ResponseEntity<List<Odontologo>> listarTodos() {
         return ResponseEntity.ok(odontologoService.listarTodos());
     }
 
-    //actualizar un odontologo
-    //Este no funciona con un ID no existente (VER POR QUE)
-   /* @PutMapping
-    public ResponseEntity<String> actualizar(@RequestBody Odontologo odontologo) {
-        ResponseEntity<String> response;
-        Optional odontologoBuscado = odontologoService.buscarPorId(odontologo.getId());
-        if (odontologoBuscado.isPresent()) {
-            odontologoService.modificar(odontologo);
-            response = ResponseEntity.ok("Se actualizó el odontologo con id " + odontologo.getId());
-        } else {
-            response = ResponseEntity.ok().body("No se puede actualizar el odontologo");
-        }
-        return response;
-
-    }*/
-
-
- //Modifica/Actualiza los odontologos
+    //Modifica/Actualiza los odontólogos
    @PutMapping
     public ResponseEntity<String> actualizar(@RequestBody Odontologo odontologo) {
         ResponseEntity<String> response;
@@ -90,7 +61,7 @@ public class OdontologoController {
         return response;
     }
 
-    //BORRAR POR ID
+    //Borra odontólogo por id
     @DeleteMapping("/{id}")
     public ResponseEntity<String> borrarOdontologo(@PathVariable Long id) {
         ResponseEntity<String> response;

@@ -32,6 +32,7 @@ window.addEventListener('load', function () {
             //por cada odontologo creamos un boton modificar que agregaremos en cada fila para poder eliminarla
             //dicho boton invocara a la funcion de java script modifyByKey que se encargará
             //de llamar a la API para modificar una odontologo
+            //let modifyButton = '<button class="btn-form btn text-white border-0 btn_modify"><a href="odontologoActualizar.html?id=' + dentist.id + '>Editar</a></button>';
             let modifyButton = '<a href="odontologoActualizar.html?id=' + dentist.id + '" class="btn-form btn text-white border-0 btn_modify">Editar</a>';
 
             dentistRow.innerHTML =

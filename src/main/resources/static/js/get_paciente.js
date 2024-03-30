@@ -32,7 +32,7 @@ window.addEventListener('load', function () {
             //por cada paciente creamos un boton modificar que agregaremos en cada fila para poder eliminarla
             //dicho boton invocara a la funcion de java script modifyByKey que se encargará
             //de llamar a la API para modificar una paciente
-            let modifyButton = '<a href="pacienteActualizar.html?id=' + patient.id + ' class="btn-form btn text-white border-0 btn_modify">Editar</a>';
+            let modifyButton = '<a href="pacienteActualizar.html?id=' + patient.id + '><button class="btn-form btn text-white border-0 btn_modify">Editar</button></a>';
 
 
             patientRow.innerHTML =
