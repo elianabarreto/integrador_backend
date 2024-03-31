@@ -32,8 +32,7 @@ window.addEventListener('load', function () {
             //por cada paciente creamos un boton modificar que agregaremos en cada fila para poder eliminarla
             //dicho boton invocara a la funcion de java script modifyByKey que se encargará
             //de llamar a la API para modificar una paciente
-            let modifyButton = '<a href="pacienteActualizar.html?id=' + patient.id + '><button class="btn-form btn text-white border-0 btn_modify">Editar</button></a>';
-
+            let modifyButton = '<a href="pacienteActualizar.html?id=' + patient.id + '" class="btn-form btn text-white border-0 btn_modify">Editar</a>';
 
             patientRow.innerHTML =
                     '<td class=\"td_id\">' + patient.id + '</td>' +
@@ -43,10 +42,6 @@ window.addEventListener('load', function () {
                     '<td class=\"td_fecha_ingreso\">' + patient.fecha_ingreso + '</td>' +
                     '<td>' + deleteButton + '</td>' +
                     '<td>' + modifyButton + '</td>';
-
-
-
-
         };
 
     })
@@ -54,7 +49,7 @@ window.addEventListener('load', function () {
 
     (function(){
       let pathname = window.location.pathname;
-      if (pathname == "/odontologoLista.html") {
+      if (pathname == "/pacienteListar.html") {
           document.querySelector(".nav .nav-item a:last").addClass("active");
       }
     })
