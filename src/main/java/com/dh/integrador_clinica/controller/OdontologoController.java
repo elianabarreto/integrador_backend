@@ -25,7 +25,6 @@ public class OdontologoController {
     //Busca un odontólogo por id
     @GetMapping("/{id}")
     public ResponseEntity<Optional> buscarPorId(@PathVariable Long id) {
-
         return ResponseEntity.ok(odontologoService.buscarPorId(id));
     }
 
@@ -44,42 +43,15 @@ public class OdontologoController {
     //Modifica/Actualiza los odontólogos
    @PutMapping
     public ResponseEntity<String> actualizar(@RequestBody Odontologo odontologo) {
-        ResponseEntity<String> response;
-        try {
-            Optional<Odontologo> odontologoBuscado = odontologoService.buscarPorId(odontologo.getId());
-            if (odontologoBuscado.isPresent()) {
-                odontologoService.modificar(odontologo);
-                response = ResponseEntity.ok("Se actualizó el odontólogo con ID " + odontologo.getId());
-            } else {
-                response = ResponseEntity.ok().body("No se puede actualizar el odontólogo");
-            }
-        } catch (EmptyResultDataAccessException e) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("El odontólogo con ID " + odontologo.getId() + " no existe");
-        } catch (Exception e) {
-            response = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No se puede actualizar el odontologo");
-        }
-        return response;
+       odontologoService.modificar(odontologo);
+       return ResponseEntity.ok("El odontologo con id " + odontologo.getId() + " se ha actualizado correctamente");
+
     }
 
     //Borra odontólogo por id
     @DeleteMapping("/{id}")
     public ResponseEntity<String> borrarOdontologo(@PathVariable Long id) {
-        ResponseEntity<String> response;
-        try {
-            Optional<Odontologo> odontologoBuscado = odontologoService.buscarPorId(id);
-            if (odontologoBuscado.isPresent()) {
-                odontologoService.eliminar(id);
-                response = ResponseEntity.ok("Se borro el odontólogo con ID " + id);
-            } else {
-                response = ResponseEntity.ok().body("No se puede borrar el odontólogo porque no existe");
-            }
-
-    } catch (EmptyResultDataAccessException e) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("El odontólogo con ID " +  id + " no existe");
-        } catch (Exception e) {
-            response = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No se puede borrar el odontologo");
-        }
-        return response;
+        odontologoService.eliminar(id);
+        return ResponseEntity.ok("El odontologo con id " + id + " se ha eliminado correctamente");
     }
 }
-

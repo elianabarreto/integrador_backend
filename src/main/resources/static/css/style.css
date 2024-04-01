@@ -2,7 +2,7 @@
 
 body {
   background-image: url('../img/fondo.jpg');
-  background-size: cover; /* o background-size: contain; */
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
 }

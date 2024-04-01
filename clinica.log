@@ -463,3 +463,280 @@
 [2024-03-15 01:32:38] [ INFO ] [DomicilioDAOH2:153] Este es el domicilio que se está devolviendo Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super
 [2024-03-15 01:32:38] [ INFO ] [PacienteDAOH2:62] Se creó el paciente Paciente con id: 4, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: Domicilio con id: 3, calle: Calle Aleluya, número: 3444, localidad: Pais de las Maravillas, provincia: Super, fecha ingreso: 2024-03-14
 [2024-03-15 01:32:38] [ INFO ] [PacienteDAOH2:173] Este es el paciente que se está devolviendo Paciente con id: 3, nombre: Alfin, apellido: LoLogramos, dni: 111111, domicilio: null, fecha ingreso: 2024-03-14
+[2024-03-31 00:15:04] [ INFO ] [TurnoService:48] No se encontró el turno con  id 1
+[2024-03-31 00:45:05] [ INFO ] [OdontologoService:46] No se encontró el odontólogo con  id 1, por lo tanto no se pudo eliminar
+[2024-03-31 11:21:43] [ INFO ] [OdontologoService:77] No se encontró el odontólogo con  id 1
+[2024-03-31 11:22:08] [ INFO ] [OdontologoService:46] No se encontró el odontólogo con  id 126, por lo tanto no se pudo eliminar
+[2024-03-31 11:22:17] [ INFO ] [PacienteService:46] No se encontró el paciente con  id 126
+[2024-03-31 12:17:50] [ INFO ] [OdontologoService:65] No se encontró el odontólogo con  id 70
+[2024-03-31 12:18:18] [ INFO ] [OdontologoService:65] No se encontró el odontólogo con  id 200
+[2024-03-31 12:18:59] [ INFO ] [OdontologoService:65] No se encontró el odontólogo con  id 200
+[2024-03-31 12:19:00] [ INFO ] [OdontologoService:65] No se encontró el odontólogo con  id 200
+[2024-03-31 12:20:31] [ INFO ] [OdontologoService:65] No se encontró el odontólogo con  id 3000
+[2024-03-31 12:22:52] [ INFO ] [OdontologoService:65] No se encontró el odontólogo con  id 3000
+[2024-03-31 12:27:09] [ INFO ] [OdontologoService:40] No se encontró el odontólogo con  id 417, por lo tanto no se pudo actualizar
+[2024-03-31 12:30:00] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:50] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:51] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:52] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:53] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:54] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:55] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 400, por lo tanto no se pudo eliminar
+[2024-03-31 12:30:58] [ INFO ] [OdontologoService:53] No se encontró el odontólogo con  id 500, por lo tanto no se pudo eliminar
+[2024-03-31 12:31:39] [ INFO ] [OdontologoService:40] No se encontró el odontólogo con  id 3000, por lo tanto no se pudo actualizar
+[2024-03-31 12:46:18] [ INFO ] [OdontologoService:41] No se encontró el odontólogo con  id 3000, por lo tanto no se pudo actualizar
+[2024-03-31 15:34:39] [ INFO ] [OdontologoService:53] Se elimino el odontologoo con  id 119
+[2024-03-31 15:37:06] [ INFO ] [OdontologoService:30] Se agrego un  odontologoo con  id null
+[2024-03-31 15:38:36] [ INFO ] [OdontologoService:30] Se agrego un  odontologoo
+[2024-03-31 15:39:52] [ INFO ] [OdontologoService:30] Se agrego un  odontologo
+[2024-03-31 15:39:52] [ INFO ] [OdontologoService:40] Se modifico un  odontologo con Id: 120
+[2024-03-31 17:45:49] [ INFO ] [OdontologoService:65] No se puede eliminar el odontólogo con  id 1porque no existe
+[2024-03-31 17:55:52] [ INFO ] [TurnoService:48] No se encontró el turno con  id 1
+[2024-03-31 17:57:56] [ INFO ] [OdontologoService:32] Se agregó un  odontólogo
+[2024-03-31 18:11:13] [ INFO ] [OdontologoService:46] Se agregó el odontólogo correctamente
+[2024-03-31 18:15:10] [ INFO ] [OdontologoService:46] Se agregó el odontólogo correctamente
+[2024-03-31 18:17:14] [ INFO ] [OdontologoService:42] Se agregó un odontólogo correctamente
+[2024-03-31 18:17:24] [ INFO ] [OdontologoService:42] Se agregó un odontólogo correctamente
+[2024-03-31 18:21:03] [ ERROR] [OdontologoService:42] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 18:21:17] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 18:21:20] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 18:21:25] [ ERROR] [OdontologoService:42] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 18:30:41] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 18:30:46] [ ERROR] [OdontologoService:42] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 18:30:58] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 18:33:36] [ ERROR] [OdontologoService:42] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 18:33:58] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 18:40:51] [ ERROR] [OdontologoService:44] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 18:43:31] [ ERROR] [OdontologoService:44] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 18:50:20] [ INFO ] [OdontologoService:61] Se modificó el odontólogo con id 120
+[2024-03-31 18:50:42] [ ERROR] [OdontologoService:65] No se puede modificar el odontólogo con id 1, porque no existe
+[2024-03-31 18:55:26] [ INFO ] [OdontologoService:80] Se eliminó el odontólogo con  id 120
+[2024-03-31 18:55:30] [ INFO ] [OdontologoService:86] No se puede eliminar el odontólogo con  id 1 porque no existe
+[2024-03-31 19:15:57] [ ERROR] [PacienteService:45] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:16:30] [ ERROR] [OdontologoService:41] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 19:19:23] [ ERROR] [OdontologoService:41] No se completaron todos los datos requeridos para guardar el odontólogo
+[2024-03-31 19:25:28] [ INFO ] [PacienteService:49] Se agregó un paciente correctamente
+[2024-03-31 19:27:22] [ INFO ] [PacienteService:49] Se agregó un paciente correctamente
+[2024-03-31 19:28:42] [ ERROR] [PacienteService:45] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:28:57] [ INFO ] [PacienteService:49] Se agregó un paciente correctamente
+[2024-03-31 19:29:02] [ INFO ] [PacienteService:49] Se agregó un paciente correctamente
+[2024-03-31 19:30:24] [ ERROR] [PacienteService:45] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:30:36] [ INFO ] [PacienteService:49] Se agregó un paciente correctamente
+[2024-03-31 19:32:26] [ ERROR] [PacienteService:45] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:37:07] [ ERROR] [PacienteService:47] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:37:11] [ ERROR] [PacienteService:47] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:37:16] [ ERROR] [PacienteService:47] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 19:42:25] [ INFO ] [PacienteService:60] Se modificó el paciente con id 70
+[2024-03-31 19:43:09] [ INFO ] [PacienteService:80] No se encontró el paciente con  id 7
+[2024-03-31 19:45:29] [ INFO ] [PacienteService:80] No se encontró el paciente con  id 700
+[2024-03-31 19:47:47] [ ERROR] [PacienteService:85] No se encontró el paciente con  id 700
+[2024-03-31 19:48:21] [ ERROR] [OdontologoService:61] No se puede modificar el odontólogo con id 1, porque no existe
+[2024-03-31 19:50:21] [ ERROR] [PacienteService:64] No se puede modificar el paciente con id 700, porque no existe
+[2024-03-31 19:55:12] [ ERROR] [PacienteService:103] No se encontró el paciente con  id 1
+[2024-03-31 19:56:42] [ ERROR] [PacienteService:87] No se puede eliminar el paciente con id 1 porque no existe
+[2024-03-31 20:10:18] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 20:10:48] [ ERROR] [PacienteService:102] No se encontró el paciente con  id 1
+[2024-03-31 20:11:11] [ INFO ] [TurnoService:46] Se agregó un turno correctamente
+[2024-03-31 20:15:05] [ INFO ] [TurnoService:46] Se agregó un turno correctamente
+[2024-03-31 20:19:46] [ INFO ] [TurnoService:46] Se agregó un turno correctamente
+[2024-03-31 20:20:13] [ INFO ] [TurnoService:46] Se agregó un turno correctamente
+[2024-03-31 20:24:27] [ ERROR] [TurnoService:41] No se completaron todos los datos requeridos para guardar el turno
+[2024-03-31 20:36:40] [ ERROR] [TurnoService:41] No se completaron todos los datos requeridos para guardar el turno
+[2024-03-31 20:37:03] [ ERROR] [TurnoService:41] No se completaron todos los datos requeridos para guardar el turno
+[2024-03-31 20:37:24] [ INFO ] [TurnoService:45] Se agregó un turno correctamente
+[2024-03-31 20:40:31] [ ERROR] [TurnoService:42] No se completaron todos los datos requeridos para guardar el turno
+[2024-03-31 20:40:41] [ ERROR] [TurnoService:42] No se completaron todos los datos requeridos para guardar el turno
+[2024-03-31 20:40:51] [ ERROR] [TurnoService:42] No se completaron todos los datos requeridos para guardar el turno
+[2024-03-31 20:41:55] [ INFO ] [TurnoService:46] Se agregó un turno correctamente
+[2024-03-31 20:49:36] [ INFO ] [TurnoService:80] No se encontró el turno con  id 1
+[2024-03-31 20:50:59] [ INFO ] [TurnoService:58] Se modificó el turno con id 21
+[2024-03-31 20:51:46] [ ERROR] [TurnoService:62] No se puede modificar el turno con id 100, porque no existe
+[2024-03-31 20:57:13] [ INFO ] [TurnoService:80] Se eliminó el turno con id 21
+[2024-03-31 20:57:19] [ ERROR] [TurnoService:86] No se puede eliminar el turno con id 100 porque no existe
+[2024-03-31 21:01:01] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:01:01] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:01:01] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:01:01] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:01:02] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 143
+[2024-03-31 21:01:02] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:01:02] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:01:02] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 145
+[2024-03-31 21:01:02] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 145
+[2024-03-31 21:01:02] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:03:12] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:03:12] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:03:12] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:07:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:07:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:07:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:07:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:07:04] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 4
+[2024-03-31 21:07:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:07:05] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:07:05] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 6
+[2024-03-31 21:07:05] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 6
+[2024-03-31 21:07:05] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:09:12] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:09:12] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:09:12] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:12:50] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:12:50] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:12:50] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:12:50] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:12:50] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 4
+[2024-03-31 21:12:50] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:12:51] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:12:51] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 6
+[2024-03-31 21:12:51] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 6
+[2024-03-31 21:12:51] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:18:59] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:18:59] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:18:59] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:25:18] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:25:18] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:25:18] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:25:18] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:25:18] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:28:14] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:28:14] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:28:14] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:28:15] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:28:15] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 4
+[2024-03-31 21:28:15] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:28:15] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:28:15] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 6
+[2024-03-31 21:28:15] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 6
+[2024-03-31 21:28:15] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:29:16] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:29:16] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:29:16] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:36:38] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:36:38] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:36:38] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 4
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 6
+[2024-03-31 21:37:37] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 6
+[2024-03-31 21:37:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:38:30] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:38:30] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:38:30] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 4
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:43:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:43:29] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 6
+[2024-03-31 21:43:29] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 6
+[2024-03-31 21:43:29] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:44:50] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:44:50] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:44:50] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:49:30] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:49:30] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 1
+[2024-03-31 21:49:30] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 1
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:57] Se modificó el odontólogo con id 4
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:76] Se eliminó el odontólogo con id 6
+[2024-03-31 21:50:37] [ ERROR] [OdontologoService:97] No se encontró el odontólogo con  id 6
+[2024-03-31 21:50:37] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:52:11] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:52:11] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:52:11] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:52:11] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:52:11] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:53:27] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:53:27] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:53:27] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:53:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:53:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:54:24] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:54:24] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:54:24] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:54:24] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:54:24] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:54:24] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:54:24] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:54:24] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 21:54:24] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 21:54:24] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 22:01:41] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:01:41] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:01:41] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:01:41] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:01:41] [ INFO ] [PacienteService:61] Se modificó el paciente con id 4
+[2024-03-31 22:01:41] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:01:42] [ INFO ] [PacienteService:80] Se eliminó el paciente con id 5
+[2024-03-31 22:01:42] [ ERROR] [PacienteService:102] No se encontró el paciente con  id 5
+[2024-03-31 22:01:42] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:01:42] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:02:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:02:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 22:02:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:02:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 22:02:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:02:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 22:02:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:02:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 22:02:28] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:02:28] [ ERROR] [PacienteService:44] No se completaron todos los datos requeridos para guardar el paciente
+[2024-03-31 22:04:26] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:26] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:04:26] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:26] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:04:26] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:26] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:04:26] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:26] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:80] Se eliminó el turno con id 4
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:99] No se encontró el turno con  id 4
+[2024-03-31 22:04:26] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:26] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:26] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:04:27] [ INFO ] [TurnoService:60] Se modificó el turno con id 5
+[2024-03-31 22:04:27] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:27] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:27] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:04:27] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:04:27] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:04:27] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:03] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:80] Se eliminó el turno con id 4
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:99] No se encontró el turno con  id 4
+[2024-03-31 22:06:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:60] Se modificó el turno con id 5
+[2024-03-31 22:06:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente
+[2024-03-31 22:06:04] [ INFO ] [OdontologoService:45] Se agregó un odontólogo correctamente
+[2024-03-31 22:06:04] [ INFO ] [PacienteService:48] Se agregó un paciente correctamente
+[2024-03-31 22:06:04] [ INFO ] [TurnoService:48] Se agregó un turno correctamente

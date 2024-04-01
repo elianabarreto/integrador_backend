@@ -1,8 +1,10 @@
 package com.dh.integrador_clinica.service.implementation;
 
+import com.dh.integrador_clinica.entity.Domicilio;
 import com.dh.integrador_clinica.entity.Odontologo;
 import com.dh.integrador_clinica.entity.Paciente;
 import com.dh.integrador_clinica.entity.Turno;
+import com.dh.integrador_clinica.exception.ResourceNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -36,9 +38,13 @@ class TurnoServiceTest {
 
         //Instanciamos paciente y seteamos sus valores
         Paciente paciente = new Paciente();
+        Domicilio domicilio = new Domicilio("Calle 1", 1234, "Localidad1", "Provincia1");
+
         paciente.setNombre(nombrePaciente);
         paciente.setApellido(apellidoPaciente);
         paciente.setDni(dni);
+        paciente.setDomicilio(domicilio);
+        paciente.setFecha_ingreso(LocalDate.parse("2024-01-02"));
 
         //Instanciamos turno y seteamos sus valores (le asociamos el odontólogo y paciente)
         Turno turno = new Turno();
@@ -79,11 +85,15 @@ class TurnoServiceTest {
         Long turnoId = turno.getId();
         assertNotNull(turnoId);
 
-        //Para luego eliminarlo
-        turnoService.eliminar(turnoId);
-
-        //Por lo que, cuando busquemos su id, debería ser null
-        assertNull(turnoService.buscarPorId(turnoId));
+        // Para luego eliminarlo
+        try {
+            turnoService.eliminar(turnoId);
+            // Si llegamos aquí, el turno se eliminó correctamente
+        } catch (ResourceNotFoundException e) {
+            fail("No se esperaba una excepción ResourceNotFoundException");
+        }
+        // Verificar que el paciente ya no exista
+        assertThrows(ResourceNotFoundException.class, () -> turnoService.buscarPorId(turnoId));
     }
 
     @Test

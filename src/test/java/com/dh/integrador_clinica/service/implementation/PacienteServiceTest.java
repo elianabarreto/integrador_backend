@@ -1,14 +1,21 @@
 package com.dh.integrador_clinica.service.implementation;
 
+import com.dh.integrador_clinica.entity.Domicilio;
 import com.dh.integrador_clinica.entity.Paciente;
+import com.dh.integrador_clinica.exception.ResourceNotFoundException;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+@RunWith(SpringRunner.class)
 @SpringBootTest
 class PacienteServiceTest {
 
@@ -20,11 +27,14 @@ class PacienteServiceTest {
 
         //Instanciamos un paciente
         Paciente paciente = new Paciente();
+        Domicilio domicilio = new Domicilio("Calle 1", 1234, "Localidad1", "Provincia1");
 
         //seteamos los valores al paciente
         paciente.setNombre(nombre);
         paciente.setApellido(apellido);
         paciente.setDni(dni);
+        paciente.setDomicilio(domicilio);
+        paciente.setFecha_ingreso(LocalDate.parse("2024-01-02"));
 
         //Guardamos el paciente
         pacienteService.agregar(paciente);
@@ -55,11 +65,15 @@ class PacienteServiceTest {
         Long pacienteId = paciente.getId();
         assertNotNull(pacienteId);
 
-        //Para luego eliminarlo
-        pacienteService.eliminar(pacienteId);
-
-        //Por lo que, cuando busquemos su id, debería ser null
-        assertNull(pacienteService.buscarPorId(pacienteId));
+        // Para luego eliminarlo
+        try {
+            pacienteService.eliminar(pacienteId);
+            // Si llegamos aquí, el paciente se eliminó correctamente
+        } catch (ResourceNotFoundException e) {
+            fail("No se esperaba una excepción ResourceNotFoundException");
+        }
+        // Verificar que el paciente ya no exista
+        assertThrows(ResourceNotFoundException.class, () -> pacienteService.buscarPorId(pacienteId));
     }
 
     @Test

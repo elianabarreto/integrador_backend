@@ -44,41 +44,14 @@ public class PacienteController {
     //Modifica/actualiza un paciente
     @PutMapping
     public ResponseEntity<String> actualizar(@RequestBody Paciente paciente) {
-        ResponseEntity<String> response;
-        try {
-            Optional<Odontologo> odontologoBuscado = pacienteService.buscarPorId(paciente.getId());
-            if (odontologoBuscado.isPresent()) {
-                pacienteService.modificar(paciente);
-                response = ResponseEntity.ok("Se actualizó el paciente con ID " + paciente.getId());
-            } else {
-                response = ResponseEntity.ok().body("No se puede actualizar el paciente");
-            }
-        } catch (EmptyResultDataAccessException e) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("El odontólogo con ID " + paciente.getId() + " no existe");
-        } catch (Exception e) {
-            response = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No se puede actualizar el paciente");
-        }
-        return response;
+        pacienteService.modificar(paciente);
+        return ResponseEntity.ok("El paciente con id " + paciente.getId() + " se ha actualizado correctamente");
     }
 
     //Borra un paciente por id
     @DeleteMapping("/{id}")
     public ResponseEntity<String> borrarPaciente(@PathVariable Long id) {
-        ResponseEntity<String> response;
-        try {
-            Optional<Odontologo> odontologoBuscado = pacienteService.buscarPorId(id);
-            if (odontologoBuscado.isPresent()) {
-                pacienteService.eliminar(id);
-                response = ResponseEntity.ok("Se borro el paciente con ID " + id);
-            } else {
-                response = ResponseEntity.ok().body("No se puede borrar el paciente porque no existe");
-            }
-
-        } catch (EmptyResultDataAccessException e) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("El paciente con ID " +  id + " no existe");
-        } catch (Exception e) {
-            response = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No se puede borrar el paciente");
-        }
-        return response;
+        pacienteService.eliminar(id);
+        return ResponseEntity.ok("El paciente con id " + id + " se ha eliminado correctamente");
     }
 }

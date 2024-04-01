@@ -29,6 +29,7 @@ public class TurnoController {
     }
 
     //Busca turno por id
+    @GetMapping("/{id}")
     public ResponseEntity<Optional> buscarPorId(@PathVariable Long id) {
         return ResponseEntity.ok(turnoService.buscarPorId(id));
     }
@@ -36,21 +37,7 @@ public class TurnoController {
     //Guarda un turno
     @PostMapping
     public ResponseEntity<Turno> guardar(@RequestBody Turno turno) {
-        ResponseEntity<Turno> response;
-
-//        vamos a chequear que exista el odontologo y la paciente
-        if (odontologoService.buscarPorId(turno.getOdontologo().getId()) != null &&
-                pacienteService.buscarPorId(turno.getPaciente().getId()) != null) {
-
-            //setear una respuesta en 200 y vamos a hacer que devuelva el turno
-            response = ResponseEntity.ok(turnoService.agregar(turno));
-
-        } else {
-            //si no existe el odontologo o el paciente
-            response = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-
-        }
-        return response;
+        return ResponseEntity.ok(turnoService.agregar(turno));
     }
 
     //Lista todos los turnos
@@ -62,41 +49,14 @@ public class TurnoController {
     //Modifica/actualiza un turno
     @PutMapping
     public ResponseEntity<String> actualizar(@RequestBody Turno turno) {
-        ResponseEntity<String> response;
-        try {
-            Optional<Turno> turnoBuscado = turnoService.buscarPorId(turno.getId());
-            if (turnoBuscado.isPresent()) {
-                turnoService.modificar(turno);
-                response = ResponseEntity.ok("Se actualizó el turno con ID " + turno.getId());
-            } else {
-                response = ResponseEntity.ok().body("No se puede actualizar el turno");
-            }
-        } catch (EmptyResultDataAccessException e) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("El turno con ID " + turno.getId() + " no existe");
-        } catch (Exception e) {
-            response = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No se puede actualizar el turno");
-        }
-        return response;
+        turnoService.modificar(turno);
+        return ResponseEntity.ok("El turno con id " + turno.getId() + " se ha actualizado correctamente");
     }
 
     //Borra un turno por id
     @DeleteMapping("/{id}")
     public ResponseEntity<String> borrarTurno(@PathVariable Long id) {
-        ResponseEntity<String> response;
-        try {
-            Optional<Turno> turnoBuscado = turnoService.buscarPorId(id);
-            if (turnoBuscado.isPresent()) {
-                turnoService.eliminar(id);
-                response = ResponseEntity.ok("Se borro el turno con ID " + id);
-            } else {
-                response = ResponseEntity.ok().body("No se puede borrar el turno porque no existe");
-            }
-
-        } catch (EmptyResultDataAccessException e) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("El turno con ID " +  id + " no existe");
-        } catch (Exception e) {
-            response = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No se puede borrar el turno");
-        }
-        return response;
+        turnoService.eliminar(id);
+        return ResponseEntity.ok("El turno con id " + id + " se ha eliminado correctamente");
     }
 }

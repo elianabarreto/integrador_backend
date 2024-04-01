@@ -1,14 +1,19 @@
 package com.dh.integrador_clinica.service.implementation;
 
 import com.dh.integrador_clinica.entity.Odontologo;
+import com.dh.integrador_clinica.exception.ResourceNotFoundException;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+@RunWith(SpringRunner.class)
 @SpringBootTest
 class OdontologoServiceTest {
 
@@ -55,11 +60,16 @@ class OdontologoServiceTest {
         Long odontologoId = odontologo.getId();
         assertNotNull(odontologoId);
 
-        //Para luego eliminarlo
-        odontologoService.eliminar(odontologoId);
+        // Para luego eliminarlo
+        try {
+            odontologoService.eliminar(odontologoId);
+            // Si llegamos aquí, el odontólogo se eliminó correctamente
+        } catch (ResourceNotFoundException e) {
+            fail("No se esperaba una excepción ResourceNotFoundException");
+        }
 
-        //Por lo que, cuando busquemos su id, debería ser null
-        assertNull(odontologoService.buscarPorId(odontologoId));
+        // Verificar que el odontólogo ya no exista
+        assertThrows(ResourceNotFoundException.class, () -> odontologoService.buscarPorId(odontologoId));
     }
 
     @Test
